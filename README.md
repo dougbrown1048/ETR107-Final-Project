@@ -8,5 +8,5 @@ And here's another line.
 ### Here's another heading
 With hopefully a picture below
 
-![A mockup of the project truck!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Truck%2002.JPG "Where does this appeat?")
+![A mockup of the project truck!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Truck%2002.JPG "This is rollover text.")
 
