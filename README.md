@@ -1,6 +1,6 @@
-## ETR107-Final-Project
+## ETR107 and ETR 237 Final Project
 
-Putting some test language here.  
+Here's where I'll be documenting my project to create a slot car that can regulate its own speed and also collect telemetry dat  
 And here's another line.
 
 **Here's another paragrpah in BOLD**
