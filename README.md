@@ -1,7 +1,7 @@
-## ETR107 and ETR 237 Final Project
+## Playing With Trucks
 
-Here's where I'll be documenting my project to create a slot car that can regulate its own speed and also collect telemetry dat  
-And here's another line.
+Here's where I'll document the project I'm working on for two electronics classes I'm taking at
+Piedmont Virginia Community College in Fall 2020.
 
 **Here's another paragrpah in BOLD**
 
