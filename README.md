@@ -1,4 +1,4 @@
-### ETR107-Final-Project
+## ETR107-Final-Project
 
 Putting some test language here.  
 And here's another line.
