@@ -16,7 +16,7 @@ Onboard the same truck, I hope to
   1. Use a MicroBit microprocessor to collect and store telemetry data from the truck including  
     - Acceleration in two dimensions  
     - Maximum and average speed
-  2. Download stored data from the microbit either by USB or Blutooth connectivity
+  2. Download stored data from the microbit either by USB or Bluetooth connectivity
 
 **Here's a picture of a mockup of the truck**
 
