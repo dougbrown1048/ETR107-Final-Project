@@ -4,14 +4,14 @@ Piedmont Virginia Community College in Fall 2020.
 
 ### Introduction
 
-**For ETR107**
+**For ETR237**
 I hope to create a slot car truck that will
   1. Use an ultrasonic distance sensor to determine the distance to the next corner of the track
   2. Send that information to an Adafruit Feather microprocessor
   3. The Feather will contain a program that will output to a FeatherWing motor contol unit that will
   4. Regulate the voltage to the truck motor in order to maintain the proper speed through the corner
 
-**For ETR237**
+**For ETR107**
 Onboard the same truck, I hope to
   1. Use a MicroBit microprocessor to collect and store telemetry data from the truck including  
     - Acceleration in two dimensions  
@@ -20,5 +20,5 @@ Onboard the same truck, I hope to
 
 **Here's a picture of a mockup of the truck**
 
-![A mockup of the project truck!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Truck%2002.JPG "This is rollover text.")
+![A mockup of the project truck!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Truck%2002.JPG "Racing trucks, who knew?")
 
