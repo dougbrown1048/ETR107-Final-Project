@@ -14,7 +14,7 @@ I hope to create a slot car truck that will
 **For ETR237**
 Onboard the same truck, I hope to
   1. Use a MicroBit microprocessor to collect and store telemetry data from the truck including  
-    1. Acceleration in two dimensions
+    1. Acceleration in two dimensions  
     2. Maximum and average speed
   2. Collect stored data from the microbit either by USB download or by Blutooth connectivity
 
