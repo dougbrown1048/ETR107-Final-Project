@@ -18,7 +18,7 @@ Onboard the same truck, I hope to
     - Maximum and average speed
   2. Download stored data from the microbit either by USB or Bluetooth connectivity
 
-**Here's a picture of a mockup of the truck**
+**Here's a picture of the truck**
 
-![A mockup of the project truck!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Truck%2002.JPG "Racing trucks, who knew?")
+![The project truck!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0542.JPG "Racing trucks, who knew?")
 
