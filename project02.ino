@@ -47,14 +47,14 @@ void loop() {
   distance_cm = 0.017 * duration_us;
 
    myMotor->run(FORWARD);
-   if (distance_cm<25) {
+   if (distance_cm<10) {
     myMotor->setSpeed(0);
    }
-   else if (distance_cm>280) {
+   else if (distance_cm>215) {
     myMotor->setSpeed(255);
    }
    else {
-    i=distance_cm-25;
+    i=distance_cm+40;
     myMotor->setSpeed(i);
    }
 
