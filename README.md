@@ -12,11 +12,11 @@ I've created a slot car truck that
   4. Regulates the voltage to the truck motor in order to maintain the proper speed through the corner
 
 **For ETR107**
-Onboard the same truck, I hope to
-  1. Use a MicroBit microprocessor to collect and store telemetry data from the truck including  
+With the same truck
+  1. Use a BBC MicroBit microprocessor onboard the truck to collect and stream telemetry via radio link to another MicroBit.  Data collected includes  
     - Acceleration in two dimensions  
     - Maximum and average speed
-  2. Download stored data from the microbit either by USB or Bluetooth connectivity
+  2. With the second MicroBit connected to a laptop, view the streamed data in realtime
 
 **Here's a picture of the truck**
 
