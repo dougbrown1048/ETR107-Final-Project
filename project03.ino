@@ -60,7 +60,7 @@ void loop() {
    }
    else if (50<=distance_cm<=145) {
     j=distance_cm+110;
-    myMotor->setSpeed(i);
+    myMotor->setSpeed(j);
    }
 
   // print the value to Serial Monitor
