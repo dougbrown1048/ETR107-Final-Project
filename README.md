@@ -5,7 +5,7 @@ Piedmont Virginia Community College in Fall 2020.
 ### Introduction
 
 **For ETR237**
-For ETR237 I created a slot-car truck that regulated its own speed autonomously. The primary factor relating to safe operating speed for a slot car is the distance to the next corner. I used an ultrasonic distance sensor mounted on the truck to measure how far it is to the next curve on the track and to send that information to an Adafruit Feather motor control setup, also mounted on the car. I programmed an algorithm into the Feather that used the sensor distance data as an input to then control the output voltage accordingly.  Be aware if you attempt to repeat this project that the Adafruit motor shield that I used is not robust enough for this project to work at full power.  Slot cars can readily draw more current than the motor shield can handle.  The result is a rather catastrophic failure of the motor driver.
+For ETR237 I created a slot-car truck that regulated its own speed autonomously. The primary factor relating to safe operating speed for a slot car is the distance to the next corner. I used an ultrasonic distance sensor mounted on the truck to measure how far it is to the next curve on the track and to send that information to an Adafruit Feather motor control setup, also mounted on the car. I programmed an algorithm into the Feather that used the sensor distance data as an input to then control the output voltage accordingly.  **Be aware** if you attempt to repeat this project, the Adafruit motor shield that I used is not robust enough for this project to work at full power.  Slot cars can readily draw more current than the motor shield can handle.  The result is a rather catastrophic failure of the motor driver.
 
 
 **For ETR107**
@@ -32,6 +32,33 @@ Then I spliced into the power supply wires for the slot-car in order to route po
 Next I mounted the ultrasonic range sensors on the cab of the truck.  I did this by drilling small holes and using wire to secure the sensor.  I then attached the cab of the truck to the rest of the body and connected the sensor leads to the feather.  This completed the physical assembly of the truck for this portion of the project.
 
 ![Picture 0541!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0541.jpg)
+
+**Composing the Power Management Code**
+
+Now that the truck was assembled, I needed to figure out the code that would make it do what I hoped it would.  I'd already shown that I could control motor speed with the Feather using an example program provided with the Arduino file editor.  I searched online and found some Arduino code that could translate signals from an ultrasonic sensor to distance in centimeters.  I ran this code on my Feather and found that it worked and the sensor could accurately measure distance.  Now I merely had to integrate those two applications into one program.
+
+My first attempt was a simple linear relationship between distance and motor power.  That code can be found at my Github repo here:
+
+https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/project01.ino
+
+The critical code can be found at lines 50 and 51.  I loaded this code and hooked the truck up to a 9V battery and it actually worked.  As I moved my hand in front of the sensor, the truck wheels would speed and slow in proportion to the distance.  However, this algorithm was still quite skewed towards larger distances and the speed was slow at distances that I wanted the truck to operate at.  So I worked on version two here:
+
+https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/project02.ino
+
+Again, the important code here is found on lines 49-59.  This includes a set of "if" statements for far (full power) , near (zero power), and in between.  It still has a linear relationship between distance and power for the in between distance range.  This code worked when bench tested, so I took it to the track.  To be careful, I started with a constant 6 V DC power supply.  The truck worked.  The motor speed varied in response to distance.  The ultrasonic distance sensors even seemed to respond to the guard rails on the corners of the track, suggesting that I wouldn't need artificial means to mark the distance.  Unfortunately, when I increased the voltage, the motor driver failed suddenly and catastrophically.
+
+I purchased a new motor driver, and again tested the truck at low voltage.  It works, but the top speed is rather limited and, as a consequence, acceleration is quite modest as well.  To help overcome this, I tweaked the software algorithm one more time.  I think the ideal solution would be some sort of logarithmic relationship.  But rather than experiment with that, I created more distance intervals with linear relationships with a steeper slope in order to simulate a non-linear, logarithmic relationship in a stepwise manner.  That final code can be found here:
+
+https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/project03.ino
+
+That was all the power optimization that I attempted.  With that, the part of this project for ETR237 was essentially complete and I then moved on to the parts of the project for ETR107.
+
+
+
+
+
+
+
 
 
 **Here's a picture of the truck**
