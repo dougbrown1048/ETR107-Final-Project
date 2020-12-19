@@ -63,6 +63,10 @@ A second goal of this portion of the project was to also transmit the distance d
 
 https://makecode.microbit.org/
 
+With this simple tool I was readily able to get the MicroBits to communicate and I could plot the acceleration data directly in the MakeCode editor.  Here's a screenshot of that.
+
+https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Screenshot%20(2).png
+
 
 
 
