@@ -75,6 +75,7 @@ This worked great and transmitted acceleration data in real time.  As I noted ab
 
 ![Screenshot 15!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Screenshot%20(15).png)  ![Screenshot 15!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Screenshot%20(15).png)
 
+That's the best that I could do.  MakeCode, so far as I can tell, does not have the capability to program the MicroBit to receive data on the serial monitor, only text.  If I want to make this happen, I'll need to try to code the MicroBits in another language like Circuit Python.  But I'm content with my results and so I'll conclude here.
 
 
 
