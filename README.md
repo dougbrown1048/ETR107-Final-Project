@@ -19,6 +19,12 @@ First thing I did was proof of concept by using the DCMotorTest program provided
 
 ![Picture 03!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Truck%2003.jpg)
 
+**Construction of the Truck**
+
+Next came the fun part, the physical configuration of all the parts.  First, in order to reduce mass and save space, I cut a breadboard to the minimum size needed to mount the Feather.  I then mounted the Feather and wired the breadboard to the body of the truck.
+
+![Picture 0527!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0527.jpg)
+
 **Here's a picture of the truck**
 
 ![The project truck!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0542.JPG "Racing trucks, who knew?")
