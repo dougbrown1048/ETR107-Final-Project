@@ -5,7 +5,7 @@ Piedmont Virginia Community College in Fall 2020.
 ### Introduction
 
 **For ETR237**
-For ETR237 I created a slot-car truck that regulated its own speed autonomously. The primary factor relating to safe operating speed for a slot car is the distance to the next corner. I used an ultrasonic distance sensor mounted on the truck to measure how far it is to the next curve on the track and to send that information to an Adafruit Feather motor control setup, also mounted on the car. I programmed an algorithm into the Feather that used the sensor distance data as an input to then control the output voltage accordingly.
+For ETR237 I created a slot-car truck that regulated its own speed autonomously. The primary factor relating to safe operating speed for a slot car is the distance to the next corner. I used an ultrasonic distance sensor mounted on the truck to measure how far it is to the next curve on the track and to send that information to an Adafruit Feather motor control setup, also mounted on the car. I programmed an algorithm into the Feather that used the sensor distance data as an input to then control the output voltage accordingly.  Be aware if you attempt to repeat this project that the Adafruit motor shield that I used is not robust enough for this project to work at full power.  Slot cars can readily draw more current than the motor shield can handle.  The result is a rather catastrophic failure of the motor driver.
 
 
 **For ETR107**
@@ -28,6 +28,10 @@ Next came the fun part, the physical configuration of all the parts.  First, in 
 Then I spliced into the power supply wires for the slot-car in order to route power through the motor control unit.
 
 ![Picture 0530!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0530.jpg)  ![Picture 0536!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0536.jpg)
+
+Next I mounted the ultrasonic range sensors on the cab of the truck.  I did this by drilling small holes and using wire to secure the sensor.  I then attached the cab of the truck to the rest of the body and connected the sensor leads to the feather.  This completed the physical assembly of the truck for this portion of the project.
+
+![Picture 0541!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0541.jpg)
 
 
 **Here's a picture of the truck**
