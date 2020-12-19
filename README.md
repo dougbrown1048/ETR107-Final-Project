@@ -9,11 +9,7 @@ For ETR237 I created a slot-car truck that regulated its own speed autonomously.
 
 
 **For ETR107**
-With the same truck
-  1. Use a BBC MicroBit microprocessor onboard the truck to collect and stream telemetry via radio link to another MicroBit.  Data collected includes  
-    - Acceleration in two dimensions  
-    - Maximum and average speed
-  2. With the second MicroBit connected to a laptop, view the streamed data in realtime
+For ETR107, I used a BBC MicroBit mounted on the truck as a telemetry data logger.  The microbit contains integrated accelerometers in three dimensions.  I linked the mounted MicroBit via radio with another microbit that was connected to my laptop.  I then programmed the mounted MicroBit to collect acceleration data in two dimensions and send that data via the radio link to the other microbit.  I programmed the second microbit to receive the data and stream it via serial interface to my laptop where it could be monitored in real time. 
 
 **Here's a picture of the truck**
 
