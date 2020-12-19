@@ -5,11 +5,8 @@ Piedmont Virginia Community College in Fall 2020.
 ### Introduction
 
 **For ETR237**
-I've created a slot car truck that
-  1. Uses an ultrasonic distance sensor to determine the distance to the next corner of the track
-  2. Sends that information to an Adafruit Feather microprocessor
-  3. The Feather contains a program that will outputs instructions to a FeatherWing motor contol unit that
-  4. Regulates the voltage to the truck motor in order to maintain the proper speed through the corner
+For ETR237 I created a slot-car truck that regulated its own speed autonomously. The primary factor relating to safe operating speed for a slot car is the distance to the next corner. I used an ultrasonic distance sensor mounted on the truck to measure how far it is to the next curve on the track and to send that information to an Adafruit Feather motor control setup, also mounted on the car. I programmed an algorithm into the Feather that used the sensor distance data as an input to then control the output voltage accordingly.
+
 
 **For ETR107**
 With the same truck
