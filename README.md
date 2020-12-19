@@ -59,6 +59,9 @@ As I noted above, in this part of the project my goal was to send acceleration d
 
 ![Picture 0543!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0543.jpg)
 
+A second goal of this portion of the project was to also transmit the distance data from the ultrasonic sensor that was collected on the Feather mounted on the truck.  The hope was that the distance data could be plotted along with the acceleration.  The first attempt at doing this involved using the serial monitor in the Mu editor that I'd used to program the Feather.  Unfortunately, while the numerical distance would print in the serial monitor, I was unable to get the data to plot in the Mu editor.  This lead to a change in tools and programming language.  I then switched to using Microsoft MakeCode for MicroBit.  The online editor can be found here:
+
+https://makecode.microbit.org/
 
 
 
