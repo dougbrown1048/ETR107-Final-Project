@@ -17,7 +17,7 @@ For ETR107, I used a BBC MicroBit mounted on the truck as a telemetry data logge
 
 First thing I did was proof of concept by using the DCMotorTest program provided with the Arduino file editor.  I connected the Feather with the motor control unit to the truck motor.  With a 9v power supply and no load on the motor, the motor control worked and it appears that it didn't exceed the current capacity of the motor driver.  Here's a picture of that test.
 
-![Picture 03!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Truck%2003.jpg "Racing trucks, who knew?")
+![Picture 03!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Truck%2003.jpg)
 
 **Here's a picture of the truck**
 
