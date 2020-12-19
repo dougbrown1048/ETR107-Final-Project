@@ -25,6 +25,11 @@ Next came the fun part, the physical configuration of all the parts.  First, in 
 
 ![Picture 0527!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0527.jpg)
 
+Then I spliced into the power supply wires for the slot-car in order to route power through the motor control unit.
+
+![Picture 0530!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0530.jpg)  ![Picture 0536!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0536.jpg)
+
+
 **Here's a picture of the truck**
 
 ![The project truck!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0542.JPG "Racing trucks, who knew?")
