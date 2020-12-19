@@ -27,7 +27,7 @@ Next came the fun part, the physical configuration of all the parts.  First, in 
 
 Then I spliced into the power supply wires for the slot-car in order to route power through the motor control unit.
 
-![Picture 0530!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0530.jpg)     ![Picture 0536!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0536.jpg)
+![Picture 0530!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0530.jpg) ![Picture 0536!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0536.jpg)
 
 Next I mounted the ultrasonic range sensors on the cab of the truck.  I did this by drilling small holes and using wire to secure the sensor.  I then attached the cab of the truck to the rest of the body and connected the sensor leads to the feather.  This completed the physical assembly of the truck for this portion of the project.
 
@@ -55,7 +55,9 @@ That was all the power optimization that I attempted.  With that, the part of th
 
 ### The Process ETR107
 
+As I noted above, in this part of the project my goal was to send acceleration data from a MicroBit mounted on the truck to a computer where it could be monitored in real time.  My first thought was to use the Bluetooth capability of the MicroBit and have it communicate directly with the laptop.  My instructor persuaded me that it might be difficult to send more than one datastream in this manner.  A better plan might be to use the radio communication features of the MicroBit to have the device on the truck send the data to a second MicroBit that was connected to a laptop via USB.  I regret that I don't have any good pictures of the final physical setup of the MicroBit on the truck, but here's a picture of a mockup, without the wiring hooked up.  At this point in the physical setup I also connected the MicroBit, via the breadboard, to the power output from the Feather.
 
+![Picture 0543!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/IMG_0543.jpg)
 
 
 
