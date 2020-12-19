@@ -69,7 +69,7 @@ With this simple tool I was readily able to get the MicroBits to communicate and
 
 Below is the code that I wrote that enabled the two microbits to transfer that information.  On the left is the code for the MicroBit that was mounted on the truck, what I referred to as the "sender".  On the right is the code for the MicroBit that was connected to the laptop, what I referred to as the "receiver". 
 
-
+![Screenshot 7!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Screenshot%20(7).png)  ![Screenshot 8!](https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/Pictures/Screenshot%20(8).png)
 
 
 
