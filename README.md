@@ -53,7 +53,7 @@ https://github.com/dougbrown1048/ETR107-Final-Project/blob/main/project03.ino
 
 That was all the power optimization that I attempted.  With that, the part of this project for ETR237 was essentially complete and I then moved on to the parts of the project for ETR107.
 
-
+### The Process ETR107
 
 
 
